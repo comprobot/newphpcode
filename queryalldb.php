@@ -1,8 +1,8 @@
 <?php
-$servername = $_GET["serverip"];
-$username = $_GET["username"];
-$password = $_GET["userpass"];
-$dbname = $_GET["dbname"];
+$servername = 'sql3.freemysqlhosting.net';
+$username = 'sql3268527';
+$password = 'BzCdb4UpY9';
+$dbname = 'sql3268527';
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
